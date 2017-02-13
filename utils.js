@@ -1,4 +1,7 @@
 // #define var exts={equals:false}
+// #ifdef  equals
+// exts.equals = equals
+//#endif
 //#if exts.equals == true 
 if (Object.prototype.equals) throw "Object.prototype.equals API is already defined";
 Object.prototype.equals=function(obj1,obj2) {
