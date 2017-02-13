@@ -3,7 +3,7 @@
 // exts.equals = equals
 //#endif
 //#if exts.equals == true 
-if (Object.prototype.equals) throw "Object.prototype.equals API is already defined";
+if (Object.prototype.equals) console.log( "Object.prototype.equals API is already defined");
 Object.prototype.equals=function(obj1,obj2) {
   var i, l, leftChain=[], rightChain=[];
 
