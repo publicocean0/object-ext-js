@@ -4,7 +4,8 @@
 //#endif
 //#if exts.equals == true 
 if (Object.prototype.equals) console.log( "Object.prototype.equals API is already defined");
-Object.prototype.equals=function(obj1,obj2) {
+else {
+  Object.prototype.equals=function(obj1,obj2) {
   var i, l, leftChain=[], rightChain=[];
 
   function compare2Objects (x, y) {
@@ -104,4 +105,5 @@ Object.prototype.equals=function(obj1,obj2) {
   return (arguments.length>1)?compare2Objects(obj1,ob2):compare2Objects(this,obj1);
 }
 Object.defineProperty(Object.prototype,'equals',{enumerable:false,configurable:false});
+}
 // #endif
