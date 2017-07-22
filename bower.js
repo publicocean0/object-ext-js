@@ -5,6 +5,6 @@
 "preprocessor":{
 "equals":true
 }},
-"main":["empty.js"],
+"main":["utils.js"],
 "ignore": []
 }
