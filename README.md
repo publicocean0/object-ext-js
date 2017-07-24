@@ -1,4 +1,6 @@
 # object-ext-js
+It is suggested to use <a href="https://github.com/publicocean0/bindep">bindep</a> tool for including this component.Anyway it works also in standard bower. 
+
 Object extensions
 
 New API
